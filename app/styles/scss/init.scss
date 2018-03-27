@@ -1,0 +1,38 @@
+//misc settings
+@import 'config/_settings';
+@import 'config/_mixins';
+
+//frameworks
+
+//global things
+@import 'general/_reset';
+@import 'layout/_main';
+
+//pages
+
+.parent {
+	height: 100vh;
+	background-color: #ffe;
+	padding: 30px;
+}
+
+.photo-container {
+	height: 35vh;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	& img {
+		width: 100%;
+	}
+}
+
+.status {
+	display: block;
+	.person {
+		width: 40%;
+		display: inline-block;
+		img {
+			height: 17vh;
+		}
+	}
+}
