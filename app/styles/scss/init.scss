@@ -10,6 +10,10 @@
 
 //pages
 
+body {
+	font-family: 'IBM Plex Serif', serif;
+}
+
 .parent {
 	height: 100vh;
 	background-color: #ffe;
@@ -29,10 +33,53 @@
 .status {
 	display: block;
 	.person {
-		width: 40%;
+		width: 35%;
 		display: inline-block;
+		margin: 0 20px 20px 0;
+		border-radius: 10px;
+		overflow: hidden;
+		position: relative;
 		img {
-			height: 17vh;
+			height: 16vh;
+		}
+		.status-color {
+		    display: block;
+		    width: 30px;
+		    height: 100%;
+		    background-color: blue;
+		    position: absolute;
 		}
 	}
 }
+
+.clndr {
+
+	font-family: 'IBM Plex Serif', serif;
+
+	.clndr-controls {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

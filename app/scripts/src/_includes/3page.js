@@ -1,3 +1,5 @@
 (function(){
-	$('#calendar').clndr();
+	$('#calendar').clndr({
+		daysOfTheWeek: ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"]
+	});
 })()

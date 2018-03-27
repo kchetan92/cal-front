@@ -29719,5 +29719,7 @@ __WEBPACK_IMPORTED_MODULE_1__home_deployer_sites_node_foundation_customizer_node
 /***/ })
 /******/ ]);
 (function(){
-	$('#calendar').clndr();
+	$('#calendar').clndr({
+		daysOfTheWeek: ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"]
+	});
 })()
