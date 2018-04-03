@@ -6,14 +6,73 @@
         <title>Website Title</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+        <link rel="stylesheet" href="styles/foundation.min.css">
         <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
 
-        <!-- Add your site or application content here -->
         <div class="parent">
-            <div class="grid-x">ha</div>
+            <div class="grid-x grid-margin-x">
+                <div class="cell large-8">
+                    <div class="grid-x grid-margin-x">
+                        <div class="cell large-6 photo-container">
+                            <!-- <img src="/images/img43.jpg" alt=""> -->
+                            <img src="/images/in1.jpg" alt="">
+                            <img src="/images/in2.jpg" alt="">
+                            <img src="/images/in3.jpg" alt="">
+                        </div>
+                        <div class="cell large-6 status">
+                            <div style="background-image: url('/images/img39.jpg') " class="person">
+                                <div class="status-color"></div>
+                            </div>
+                            <div style="background-image: url('/images/img39.jpg') " class="person">
+                                <div class="status-color"></div>
+                            </div>
+                            <div style="background-image: url('/images/img39.jpg') " class="person">
+                                <div class="status-color"></div>
+                            </div>
+                            <div style="background-image: url('/images/img39.jpg') " class="person">
+                                <div class="status-color"></div>
+                            </div>
+                        </div>
+                        <div class="cell large-12" id="calendar"></div>
+                    </div>
+                </div>
+                <div class="large-4 right-panel">
+                    <p class="title date">Wednesday, 4th April</p>
+                    <div class="weather">
+                        <span id="icons"></span>
+                        <span id="temp"></span>
+                        <span id="condition"></span>
+                    </div>
+                    <div class="todos">
+                        <div class="list">
+                            <ul>
+                                <li>Order Groceries</li>
+                                <li>Call Richard</li>
+                                <li>Take Blue Pills</li>
+                            </ul>
+                        </div>
+                        <p class="title">Events</p>
+                        <div class="month">
+                            <p class="name">March</p>
+                            <ul>
+                                <li><b>25</b> Farmers' Market</li>
+                                <li><b>26</b> Alex' Market</li>
+                            </ul>
+                        </div>
+                        <div class="month">
+                            <p class="name">April</p>
+                            <ul>
+                                <li><b>4</b> Alex is visiting</li>
+                                <li><b>14</b> Alice's birthday</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <script src="scripts/app.js"></script>
