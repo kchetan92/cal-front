@@ -33,20 +33,20 @@ body {
 .status {
 	display: block;
 	.person {
-		width: 35%;
+		width: 45%;
+		height: 128px;
 		display: inline-block;
 		margin: 0 20px 20px 0;
 		border-radius: 10px;
 		overflow: hidden;
 		position: relative;
-		img {
-			height: 16vh;
-		}
+		background-color: teal;
+		background-size: cover;
 		.status-color {
 		    display: block;
 		    width: 30px;
 		    height: 100%;
-		    background-color: blue;
+		    background-color: red;
 		    position: absolute;
 		}
 	}
@@ -58,6 +58,45 @@ body {
 
 	.clndr-controls {
 		display: none;
+	}
+}
+
+.right-panel {
+	.date {
+		font-size: 40px;
+		font-weight: bold;
+		position: relative;
+		bottom: 12px;
+	}
+	.weather {
+		font-size: 20px;
+		font-weight: bold;
+		display: inline-block;
+	}
+	#icons {
+	    width: 30px;
+	    height: 30px;
+	    display: inline-block;
+	    background-position: center;
+	    background-size: 100%;
+	    background-repeat: no-repeat;
+	    position: relative;
+	    top: 8px;
+
+	}
+}
+
+.clndr-table {
+	thead, tbody, tbody > tr {
+		background: none !important;
+	}
+	tbody td > div {
+		border: 3px solid black;
+		border-radius: 10px;
+		padding: 5px;
+		font-family: 'Open Sans', serif;
+		font-size: 29px;
+		font-weight: bold;
 	}
 }
 
