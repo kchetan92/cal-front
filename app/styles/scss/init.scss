@@ -6,6 +6,7 @@
 
 //global things
 @import 'general/_reset';
+@import 'general/_slick';
 @import 'layout/_main';
 
 //pages
@@ -25,8 +26,9 @@ body {
 	border-radius: 10px;
 	overflow: hidden;
 	position: relative;
-	& img {
-		width: 100%;
+	img {
+			width: 100%;
+
 	}
 }
 
@@ -69,20 +71,60 @@ body {
 		bottom: 12px;
 	}
 	.weather {
-		font-size: 20px;
+		font-size: 30px;
 		font-weight: bold;
 		display: inline-block;
+
 	}
 	#icons {
-	    width: 30px;
-	    height: 30px;
+	    width: 50px;
+	    height: 50px;
 	    display: inline-block;
 	    background-position: center;
-	    background-size: 100%;
+	    background-size: 110%;
 	    background-repeat: no-repeat;
 	    position: relative;
-	    top: 8px;
+	    top: 12px;
+		margin-left: 20px;
+	}
+	ul {
+		list-style-type: none;
+	}
+}
 
+.todos {
+	margin-left: 30px;
+	font-size: 30px;
+
+	.title {
+		font-size: 30px;
+		font-weight: bold;
+		margin-top: 30px;
+	}
+
+	.month {
+		.name {
+			font-weight: 20px;
+			font-weight: bold;
+		}
+		ul {
+			margin-bottom: 20px;
+		}
+	}
+	b {
+		display: inline;
+	}
+}
+
+.header-days {
+	font-size: 35px;
+}
+
+table {
+	table-layout: fixed;
+	.adjacent-month .day-contents {
+		color: rgba(0,0,0,0.5);
+		border-color: rgba(0,0,0,0.5);
 	}
 }
 
