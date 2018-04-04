@@ -6,6 +6,8 @@
         <title>Website Title</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
         <link rel="stylesheet" href="styles/foundation.min.css">
@@ -55,26 +57,23 @@
                                 <li>Take Blue Pills</li>
                             </ul>
                         </div>
+                        <button id="authorize-button" style="display: none;">Authorize</button>
+
                         <p class="title">Events</p>
-                        <div class="month">
-                            <p class="name">March</p>
-                            <ul>
-                                <li><b>25</b> Farmers' Market</li>
-                                <li><b>26</b> Alex' Market</li>
-                            </ul>
-                        </div>
-                        <div class="month">
-                            <p class="name">April</p>
-                            <ul>
-                                <li><b>4</b> Alex is visiting</li>
-                                <li><b>14</b> Alice's birthday</li>
-                            </ul>
-                        </div>
+                        <div id="event-list">
+
+                      </div>
                     </div>
                 </div>
             </div>
         </div>
-        
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="scripts/app.js"></script>
+        <script src="scripts/api.js"></script>
+        <script async defer src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
     </body>
 </html>

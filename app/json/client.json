@@ -1,0 +1,12 @@
+{
+  "client_id": "546561296751-8htsa7el59731i8gjin5b5mkjq90h8g7.apps.googleusercontent.com",
+  "api_key": "AIzaSyCtaqcbCUYXcWVo0vBoOdMI1r14R0Volgw",
+  "project_id": "cal-199906",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_secret": "5Xz2MNflXpFGqoDp9oZdmGGa",
+  "javascript_origins": [
+    "http://localhost:8000"
+  ]
+}
