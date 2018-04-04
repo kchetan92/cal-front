@@ -13,13 +13,13 @@ $.getJSON("json/client.json", function(data){
   API_KEY = data["api_key"];
 });
 
-console.log(watchURL);
+/*console.log(watchURL);
 $.post(
   watchURL,
   function(data){
   alert("New event added");
   updateEvents();
-  });
+  });*/
 
 var authorizeButton = document.getElementById('authorize-button');
 
