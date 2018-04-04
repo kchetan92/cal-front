@@ -48,7 +48,7 @@ function updateSigninStatus(isSignedIn) {
   if (isSignedIn) {
     authorizeButton.style.display = 'none';
     //signoutButton.style.display = 'block';
-    updateEvents();
+    setInterval(updateEvents, 5000);
   } else {
     authorizeButton.style.display = 'block';
     //signoutButton.style.display = 'none';
@@ -154,7 +154,7 @@ function updateEvents(){
     var nextMonth_lastDay = new Date(y, m + 2, 0);
     setTimeout(function() {
       listUpcomingEvents(nextMonth_firstDay,nextMonth_lastDay);
-    }, 500);
+    }, 100);
 
 
   }
